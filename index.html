@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="web_standard" name="shell-type"/>
+  <title>Excelsior Perú - Cristal Templado Arquitectónico</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <style>
+    @layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+      main > :first-child { margin-top: 0 !important; }
+      main > :last-child { margin-bottom: 0 !important; }
+    }
+    ::-webkit-scrollbar { display: none; }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "inverse-primary": "#bac7e1",
+            "outline-variant": "#c5c6cd",
+            "surface-dim": "#d2d9f4",
+            "on-secondary-container": "#00476e",
+            "primary-fixed": "#d6e3fe",
+            "surface-container-low": "#f2f3ff",
+            "on-secondary-fixed-variant": "#004b73",
+            "surface-container": "#eaedff",
+            "secondary-fixed-dim": "#93ccff",
+            "surface-tint": "#525f75",
+            "surface-container-high": "#e2e7ff",
+            "on-secondary-fixed": "#001d31",
+            "background": "#faf8ff",
+            "on-primary-container": "#77849c",
+            "on-primary-fixed-variant": "#3a475c",
+            "surface-bright": "#faf8ff",
+            "on-surface": "#131b2e",
+            "on-secondary": "#ffffff",
+            "tertiary": "#000000",
+            "on-primary-fixed": "#0e1c2f",
+            "surface": "#faf8ff",
+            "surface-container-lowest": "#ffffff",
+            "on-error-container": "#93000a",
+            "error-container": "#ffdad6",
+            "secondary": "#006398",
+            "tertiary-fixed": "#66ff8e",
+            "on-error": "#ffffff",
+            "on-surface-variant": "#44474c",
+            "on-tertiary-fixed-variant": "#005322",
+            "error": "#ba1a1a",
+            "secondary-fixed": "#cce5ff",
+            "inverse-surface": "#283044",
+            "inverse-on-surface": "#eef0ff",
+            "outline": "#75777d",
+            "secondary-container": "#5bb8fe",
+            "on-background": "#131b2e",
+            "surface-container-highest": "#dae2fd",
+            "primary": "#000000",
+            "primary-fixed-dim": "#bac7e1",
+            "on-primary": "#ffffff",
+            "tertiary-container": "#002109",
+            "surface-variant": "#dae2fd",
+            "on-tertiary": "#ffffff",
+            "tertiary-fixed-dim": "#3de273",
+            "primary-container": "#0e1c2f",
+            "on-tertiary-fixed": "#002109",
+            "on-tertiary-container": "#009844"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-xs": "0.25rem",
+            "space-md": "1rem",
+            "margin-mobile": "1.25rem",
+            "margin": "2.5rem",
+            "gutter": "1.5rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem",
+            "gutter-mobile": "1rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "display-hero-mobile": ["Manrope", "sans-serif"],
+            "body-md": ["Manrope", "sans-serif"],
+            "headline-xl-mobile": ["Manrope", "sans-serif"],
+            "headline-md": ["Manrope", "sans-serif"],
+            "display-hero": ["Manrope", "sans-serif"],
+            "label-md": ["Manrope", "sans-serif"],
+            "headline-xl": ["Manrope", "sans-serif"],
+            "headline-sm": ["Manrope", "sans-serif"],
+            "label-caps": ["Manrope", "sans-serif"],
+            "label-lg": ["Manrope", "sans-serif"],
+            "headline-lg": ["Manrope", "sans-serif"],
+            "body-lg": ["Manrope", "sans-serif"],
+            "body-xl": ["Manrope", "sans-serif"]
+          },
+          "fontSize": {
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "800" }],
+            "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-xl": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] transition-all duration-300">
+    <div class="h-20 max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter">
+      <a href="#" class="flex items-center gap-space-md shrink-0">
+        <img alt="Logo Excelsior Perú" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VS3Jntr1jB9uF0PbtDnAxqrBBPldhHJgQkzVJxwNua46jpIQmInKyLAkOJTyVWNhgU7vWSWWi_mWR1yQAHy6fW_eDSlL5ZNaa6rvJlX0fsEj-Khxz4uulI3w2VXDPwedT8tf4yyrr68Y9LWktQN3TNWpgcNqCmVNBFw0sMK629BolddTHA4MI2f54TN7BA1qGlXmADc2jzC7QzmLoiRsgaoiWhiDQYrdCRjeIS9DnP"/>
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface leading-none">EXCELSIOR</span>
+          <span class="font-label-caps text-label-caps uppercase text-on-surface-variant tracking-wider mt-0.5">Perú • Cristal Templado</span>
+        </div>
+      </a>
+      
+      <nav class="hidden xl:flex items-center gap-1" id="desktop-nav">
+        <a aria-current="page" class="px-3 py-2 rounded-lg transition-all bg-surface-container-high text-on-surface font-semibold" data-path="productos" href="#productos">Productos</a>
+        <a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="proyectos" href="#proyectos">Proyectos</a>
+        <a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="servicios" href="#servicios">Servicios</a>
+        <a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="arquitectos-y-disenadores" href="#arquitectos-y-disenadores">Arquitectos y diseñadores</a>
+        <a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="showroom" href="#showroom">Showroom</a>
+        <a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="contacto" href="#contacto">Contacto</a>
+        <a class="px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="tienda-online" href="#tienda-online">Tienda online</a>
+      </nav>
+
+      <div class="flex items-center gap-space-md shrink-0">
+        <a class="hidden md:flex items-center gap-space-xs text-on-surface hover:text-secondary transition-colors" href="tel:+51943706942">
+          <span class="material-symbols-outlined text-secondary text-[20px]">call</span>
+          <span class="font-label-lg text-label-lg font-semibold tracking-tight">943 706 942</span>
+        </a>
+        <a class="flex items-center gap-space-xs bg-[#25D366] hover:bg-[#20ba59] text-white px-4 py-2.5 rounded-lg shadow-[0_4px_16px_rgba(37,211,102,0.25)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.35)] transition-all font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%20Excelsior%2C%20deseo%20cotizar%20un%20proyecto" rel="noopener noreferrer" target="_blank">
+          <span class="material-symbols-outlined text-[20px]">chat</span>
+          <span class="hidden sm:inline">Cotiza por WhatsApp</span>
+          <span class="sm:hidden">Cotizar</span>
+        </a>
+        <button id="mobile-menu-btn" class="xl:hidden p-2 rounded-lg text-on-surface hover:bg-surface-container-low" aria-label="Abrir menú">
+          <span class="material-symbols-outlined text-[24px]">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu Dropdown -->
+    <div id="mobile-menu" class="hidden xl:hidden border-t border-surface-container-high bg-surface-container-lowest px-6 py-4 shadow-xl">
+      <div class="flex flex-col gap-2">
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#productos">Productos</a>
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#proyectos">Proyectos</a>
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#servicios">Servicios</a>
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#arquitectos-y-disenadores">Arquitectos y diseñadores</a>
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#showroom">Showroom</a>
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#contacto">Contacto</a>
+        <a class="px-3 py-2 rounded-lg font-semibold hover:bg-surface-container-low" href="#tienda-online">Tienda online</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
+    <div class="flex flex-col w-full">
+      
+      <!-- 1. HERO SECTION -->
+      <section class="relative w-full overflow-hidden bg-surface-container-low">
+        <div class="relative min-h-[640px] lg:min-h-[720px] flex items-center">
+          <!-- Background Architectural Image with Refined Contrast Gradient Scrim -->
+          <div class="absolute inset-0 bg-cover bg-center" data-alt="Modern luxury penthouse terrace in Lima with floor-to-ceiling ultra-clear frameless sliding glass wall doors revealing ocean panoramic view, natural afternoon daylight, architectural concrete, timber flooring, minimalist high-end residential interior photography" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC3o0IkRYc9gLyS6iWgqAaUB6WRBMNgbL5_Km-YS-O2tX_PIfqWkYjR63i7nuH8qWjUY_jDPE8ngrNUJx7VpRWM-kAQ9TxR8xvDK9-VWNQBg4zs5GNbgCoXwh0g7ijxTfrzTHLuBtMqxXEUX0FDdhjJInJ_d5WGvpVez7GjuleLAFGpPDTVrX3f1f8y5ah8KdnyOzFoIxzxORTMYLXpyZLnblxmTI2Jixk7nZ9UmFHV')"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest/95 via-surface-container-lowest/80 to-transparent lg:w-3/4"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent opacity-90 lg:opacity-40"></div>
+          
+          <!-- Hero Content Container -->
+          <div class="relative z-10 max-w-[1320px] mx-auto px-margin-mobile lg:px-margin py-space-xl lg:py-24 w-full">
+            <div class="max-w-2xl flex flex-col gap-space-md">
+              <div class="inline-flex items-center gap-space-xs px-3 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed w-fit shadow-sm">
+                <span class="material-symbols-outlined text-[16px]">verified</span>
+                <span class="font-label-caps text-label-caps uppercase tracking-wider font-bold">Cristal Templado de Alta Gama • Lima, Perú</span>
+              </div>
+              <h1 class="font-display-hero text-headline-xl lg:text-display-hero font-extrabold text-on-surface tracking-tight leading-tight">
+                Mamparas y puertas de vidrio templado que hacen tu espacio <span class="text-secondary underline decoration-secondary-container decoration-4 underline-offset-4">más amplio y luminoso</span>
+              </h1>
+              <p class="font-body-xl text-body-lg lg:text-body-xl text-on-surface-variant leading-relaxed">
+                Ingeniería de precisión, máxima durabilidad y acabados impecables para proyectos residenciales, corporativos y comerciales en Lima Metropolitana.
+              </p>
+              
+              <!-- CTAs -->
+              <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md pt-2">
+                <a class="inline-flex items-center justify-center gap-space-sm bg-[#25D366] hover:bg-[#20ba59] text-white px-6 py-3.5 rounded-lg font-label-lg text-label-lg font-bold shadow-md hover:shadow-lg transition-all" href="https://wa.me/51943706942?text=Hola%20Excelsior%2C%20deseo%20cotizar%20un%20proyecto%20de%20vidrio%20templado" rel="noopener noreferrer" target="_blank">
+                  <span class="material-symbols-outlined text-[22px]">chat</span>
+                  <span>Cotiza gratis por WhatsApp</span>
+                </a>
+                <a class="inline-flex items-center justify-center gap-space-sm bg-surface-container-lowest/90 hover:bg-surface-container text-secondary px-6 py-3.5 rounded-lg font-label-lg text-label-lg font-semibold shadow-sm hover:shadow transition-all backdrop-blur-md" href="#proyectos">
+                  <span class="material-symbols-outlined text-[20px]">view_in_ar</span>
+                  <span>Ver proyectos realizados</span>
+                </a>
+              </div>
+              
+              <!-- Trust Chips Row -->
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-lg">
+                <div class="flex items-center gap-space-xs p-3 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md shadow-sm">
+                  <span class="material-symbols-outlined text-secondary text-[24px]">workspace_premium</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold leading-none">12+ Años de Liderazgo</span>
+                    <span class="font-label-md text-label-md text-on-surface font-semibold">Mercado peruano</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-space-xs p-3 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md shadow-sm">
+                  <span class="material-symbols-outlined text-secondary text-[24px]">engineering</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold leading-none">Instalación Certificada</span>
+                    <span class="font-label-md text-label-md text-on-surface font-semibold">Técnicos propios homologados</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-space-xs p-3 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md shadow-sm">
+                  <span class="material-symbols-outlined text-secondary text-[24px]">tune</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold leading-none">Marcas Mundiales</span>
+                    <span class="font-label-md text-label-md text-on-surface font-semibold">Herrajes europeos y premium</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. FRANJA DE MARCAS ALIADAS -->
+      <section class="w-full bg-surface-container-lowest py-space-lg shadow-sm">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+            <span class="font-label-caps text-label-caps uppercase text-on-surface-variant tracking-wider font-bold shrink-0">
+              Trabajamos con las mejores marcas de la industria:
+            </span>
+            <div class="flex flex-wrap items-center justify-between gap-6 md:gap-8 opacity-80">
+              <div class="flex items-center gap-1.5 font-headline-sm text-headline-sm font-extrabold tracking-widest text-on-surface hover:text-secondary transition-colors">
+                <span class="text-secondary">CLARO</span>FLEX
+              </div>
+              <div class="flex items-center gap-1 font-headline-sm text-headline-sm font-black tracking-tight text-on-surface hover:text-secondary transition-colors">
+                DUCATI<span class="text-secondary font-light text-label-md uppercase tracking-wider ml-1">INDUSTRIAL</span>
+              </div>
+              <div class="flex flex-col leading-none">
+                <span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">OLIMPIA</span>
+                <span class="font-label-caps text-[9px] uppercase tracking-widest text-on-surface-variant">ASSA ABLOY GROUP</span>
+              </div>
+              <div class="flex items-center font-headline-sm text-headline-sm font-extrabold tracking-wider text-on-surface hover:text-secondary transition-colors">
+                TEMPLEX<span class="text-secondary text-headline-md font-bold">®</span>
+              </div>
+              <div class="flex items-center font-headline-sm text-headline-sm font-black tracking-widest text-on-surface hover:text-secondary transition-colors">
+                TRIVEL<span class="text-on-surface-variant text-[10px] font-normal tracking-normal ml-1">SPAIN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. CATÁLOGO DE PRODUCTOS -->
+      <section class="w-full py-space-xl bg-surface" id="productos">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-lg">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm pb-2">
+            <div class="flex flex-col gap-1 max-w-xl">
+              <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Sistemas de Arquitectura Transparente</span>
+              <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+                Gama de Soluciones en Cristal Templado
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Configuraciones de ingeniería a medida, perfiles discretos y rodajes de alta precisión diseñados para armonizar la iluminación natural.
+              </p>
+            </div>
+            <a class="inline-flex items-center gap-space-xs text-secondary font-label-lg text-label-lg font-bold hover:underline underline-offset-4" href="https://wa.me/51943706942?text=Deseo%20conocer%20el%20catalogo%20completo%20de%20sistemas%20Excelsior" rel="noopener noreferrer" target="_blank">
+              <span>Consultar disponibilidad y medidas especiales</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </a>
+          </div>
+          
+          <!-- 6 Product Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+            <!-- 1: Puertas Apilables -->
+            <div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+              <div class="relative h-64 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Full opening frameless stacking glass wall door system on a modern luxury terrace looking over lush gardens in Miraflores Lima, bright daylight, flawless tempered glass clarity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfNh4vDYpEIoQXTmHi-Zh6TAe9eWMNrJb2MePcOEC_vF8OFYNamCu1v1k-IAei1dMwUF_p9sYegjjRYeHu2dOd_GtI9BiK1vS3btiXA9qyxyeb_iFmh-uKQ5vZgjv0CA7eo3WPSXXzVdKA9KeRJtvZWQIsRn4tly713zWAeIImdxVM5sq0iEeeW-D6Xw7h4tEe_To59n7pvDm07KxmyiHuPj_6xOoBYJsRlLv_3-t8"/>
+                <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-primary-container text-on-primary font-label-caps text-label-caps uppercase tracking-wider">Sin guía al piso</span>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+                <div class="flex flex-col gap-1.5">
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Puertas Apilables de Cristal</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Apertura 100% panorámica sin riel inferior estorboso. Los paños se deslizan y guardan elegantemente a uno o ambos lados.
+                  </p>
+                  <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Cristal 10mm / 12mm</span>
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">CLAROFLEX</span>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg bg-surface-container text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20Puertas%20Apilables" target="_blank">
+                  <span>Ver sistema y cotizar</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 2: Puertas Plegables -->
+            <div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+              <div class="relative h-64 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Acoustic folding bifold glass patio door opening a contemporary penthouse apartment living room to a wooden deck balcony in San Isidro, soft neutral lighting, high-end interior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRlR6Y94ijwjqOdELKrsG4w3PiCRNNZBW2PVNKhOmvBM01t-9eWfaI5o06DuysDAbr_c5XKc7wFVV-UoosJtrommbYXgidNB4vOK5mADmynslSQA9izlTTDoExewPwoqYhhTNpOLfjyjkTb2gvB-9wR9E8IYqqDk2LtJ78aVA8lDf4RjDPbsHGCL3C4Y3kfqBW50rqLlCo0UFJlIXHsKdjlqQQpvRjrGsocMClFXs9"/>
+                <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Hermetismo acústico</span>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+                <div class="flex flex-col gap-1.5">
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Puertas Plegables (Bi-Fold)</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Sistema tipo acordeón diseñado para conectar de manera inmediata salas y terrazas con sellos perimetrales anti-viento.
+                  </p>
+                  <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Aislamiento acústico</span>
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Rodajes reforzados</span>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg bg-surface-container text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20Puertas%20Plegables" target="_blank">
+                  <span>Ver sistema y cotizar</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 3: Puertas Corredizas -->
+            <div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+              <div class="relative h-64 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist sliding tempered glass patio doors with heavy duty slim stainless steel tracks overlooking a minimalist courtyard in Surco Lima, bright natural architectural shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJnMeetSaO_F5F7ioM3toO_RIDMXCbS77HAA_1zsl8_PsB0I9Oi5QEVmVpgOC3ltIlJ4iMzbwpdgT_eXsxh72sXClolg_TDFAhis-KdNiTYs70EoNQ5jZeCRlwC5vh7WYftjla3MwjxKsPQANLQUgv70K2jxdh0IHCFoYRKDkJJy4jfT2FuIgT8VPeJ1H84K8M-flkNObwcL6tEtWg4KcfTiVjMqIBAdVxtV_1OU5K"/>
+                <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-label-caps uppercase tracking-wider">Deslizamiento ultra suave</span>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+                <div class="flex flex-col gap-1.5">
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Puertas Corredizas y Mamparas</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Mamparas convencionales y telescópicas de deslizamiento silencioso con herrajes de acero y perfiles finos de aluminio anodizado.
+                  </p>
+                  <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">2 a 6 Hojas</span>
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Ducasse Industrial</span>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg bg-surface-container text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20Puertas%20Corredizas" target="_blank">
+                  <span>Ver sistema y cotizar</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 4: Puertas de Ducha -->
+            <div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+              <div class="relative h-64 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury master bathroom with custom frameless tempered glass shower enclosure, matte black architectural hardware, marble walls, warm ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8RPOXjzTmZdJNKHZwo5AmkBLeme1uCrC0jQSyhrrHBOJg4UBeqxMgt4MJZeICeySY5VI7NknW6RgQM3erBr5zZ-ZXpM2gjS1PLPvrW3e55UVZCwH0AKIEF3N5sTFPJjKM8Ldk-Ii3ns2BIKeD25eMdtFZeTHv8bl3xCmB8l5T0UfcDdDxQsF-FWs9VPnbfCxO5_BtOt9GBBZ3VugW96BhkWA-2Yw_L3lMBJ6URfXW"/>
+                <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Acero Inox &amp; Negro Mate</span>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+                <div class="flex flex-col gap-1.5">
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Puertas y Divisiones de Ducha</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Vidrio templado de 8mm y 10mm con tratamiento antical opcional. Herrajes de acero inoxidable 304 resistentes a la humedad marina.
+                  </p>
+                  <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Batiente o Corrediza</span>
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Olimpia Hardware</span>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg bg-surface-container text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20Puertas%20de%20Ducha" target="_blank">
+                  <span>Ver sistema y cotizar</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 5: Puertas Batientes -->
+            <div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+              <div class="relative h-64 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Frameless swing tempered glass entrance door with hydraulic floor spring pivot and long satin stainless steel tubular handle in a sleek corporate reception area" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzrB4aHi23tFBdeiKCW8oVBHg_jgTQIYQA2B-21G0ryk3YXsTOl26HzacFOxIffrUmSpBTnXwUkclZ2UI-0gbGD3TtkNPgYCKjvhO91tnJekwHu62yzuGD2kuTlyVG8FypBaYl60wIoxPF04TJbHhZy_XJDR5jGHt48CoOuiD1wAMB8klhA5NGyYDjTRsllxNBGTYWnO9o4Aw1Bk92eR3biozhNUl01xtgf48jaqsa"/>
+                <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-surface-container-high text-on-surface font-label-caps text-label-caps uppercase tracking-wider">Alto Tránsito</span>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+                <div class="flex flex-col gap-1.5">
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Puertas Batientes Templadas</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Soluciones para accesos principales de tiendas, mamparas divisorias de oficina y consultorios con freno hidráulico de piso regulable.
+                  </p>
+                  <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Freno de piso hidráulico</span>
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Cerraduras de seguridad</span>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg bg-surface-container text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20Puertas%20Batientes" target="_blank">
+                  <span>Ver sistema y cotizar</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 6: Pizarras de Vidrio -->
+            <div class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+              <div class="relative h-64 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern corporate conference boardroom with large magnetic white tempered glass dry-erase board mounted with stainless steel standoff bolts, professional meeting setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_-PMfS4Sx4wpTNA6cEcwJE4DQ0v6zLwAKXkAA-Kmk8Yq8eQsUYJ3y2mzPFa6699OEuVKTb9YOqpGmzZKGpJApJymTOZbaQevrnauyC1oSMBc5nl_goQX8Ba2uZ3aJjeOFnxx8PmppMev0HYbrMWRZdJJLPxm_57vQYtLfzdcy1EBfS1tlAIdmsPT7CmDJ9QmtmMJNOi4RJknxIovDnChqg3VL7PFZL-XlyWWpa91K"/>
+                <span class="absolute top-3 right-3 px-2.5 py-1 rounded bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Magnéticas y Escribibles</span>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+                <div class="flex flex-col gap-1.5">
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Pizarras de Cristal Templado</h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Superficie ultralisa e inalterable que jamás se mancha ni raya. Opciones en blanco puro, negro o cristal traslúcido con anclajes flotantes.
+                  </p>
+                  <div class="flex flex-wrap gap-1.5 pt-2">
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Bisel pulido brillante</span>
+                    <span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-md text-label-md">Espesor 6mm - 8mm</span>
+                  </div>
+                </div>
+                <a class="inline-flex items-center justify-between w-full px-4 py-2.5 rounded-lg bg-surface-container text-on-surface group-hover:bg-primary group-hover:text-on-primary transition-colors font-label-lg text-label-lg font-bold" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20Pizarras%20de%20Vidrio" target="_blank">
+                  <span>Ver sistema y cotizar</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subtle bottom banner for railings -->
+          <div class="mt-4 p-space-md rounded-xl bg-surface-container-high/60 backdrop-blur-md flex flex-col sm:flex-row items-center justify-between gap-space-md">
+            <div class="flex items-center gap-space-sm text-center sm:text-left">
+              <span class="material-symbols-outlined text-secondary text-[24px]">stairs</span>
+              <span class="font-body-lg text-body-lg text-on-surface font-semibold">
+                ¿Buscas barandas de vidrio templado estructural para balcones, terrazas o escaleras?
+              </span>
+            </div>
+            <a class="shrink-0 inline-flex items-center gap-space-xs text-secondary font-label-lg text-label-lg font-bold hover:underline" href="https://wa.me/51943706942?text=Hola%2C%20quisiera%20cotizar%20barandas%20y%20pasamanos%20de%20cristal" target="_blank">
+              <span>Ver barandas y pasamanos de cristal</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. POR QUÉ ELEGIR EXCELSIOR (Diferenciales y Cifras) -->
+      <section class="w-full py-space-xl bg-surface-container-low" id="servicios">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+          <!-- Section Header -->
+          <div class="text-center max-w-2xl mx-auto flex flex-col gap-2">
+            <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Rigor y Garantía Absoluta</span>
+            <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+              Por qué Excelsior es la Elección de Arquitectos y Propietarios
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Controlamos cada etapa: desde la verificación milimétrica en tu domicilio hasta el calibrado final con sello de estanqueidad.
+            </p>
+          </div>
+
+          <!-- 6 Diferenciales Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[28px]">design_services</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Asesoría Técnica Personalizada</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Te orientamos sobre el sistema ideal según vientos, carga estructural, uso diario y estilo arquitectónico de tu inmueble.
+              </p>
+            </div>
+            
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[28px]">straighten</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Medición Milimétrica en Obra</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Nuestros especialistas acuden al lugar para registrar plomos, vanos y niveles con distanciómetros láser de alta exactitud.
+              </p>
+            </div>
+
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[28px]">precision_manufacturing</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Fabricación Exacta a Medida</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Corte CNC y horneado térmico controlado que asegura bordes finamente pulidos, destajes perfectos y resistencia mecánica certificada.
+              </p>
+            </div>
+
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[28px]">badge</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Instaladores Propios Calificados</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                No tercerizamos el montaje. Nuestro personal cuenta con seguro SCTR, equipos de protección y entrenamiento continuo de planta.
+              </p>
+            </div>
+
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[28px]">shield</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Herrajes de Larga Durabilidad</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Incorporamos componentes en aleaciones marinas y acero inoxidable 304/316 capaces de tolerar el salitre y la humedad costera de Lima.
+              </p>
+            </div>
+
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+              <div class="w-12 h-12 rounded-lg bg-surface-container-high text-secondary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[28px]">verified_user</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Garantía Escrita Respaldada</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Certificado formal de garantía sobre el cristal templado, el funcionamiento mecánico y la mano de obra aplicada.
+              </p>
+            </div>
+          </div>
+
+          <!-- Fila de Cifras Reales -->
+          <div class="p-space-lg lg:p-space-xl rounded-xl bg-primary text-on-primary shadow-xl">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-gutter text-center">
+              <div class="flex flex-col gap-1">
+                <span class="font-display-hero text-headline-xl lg:text-display-hero font-extrabold text-secondary-container leading-none">+1,500</span>
+                <span class="font-label-lg text-label-lg font-bold">Proyectos Ejecutados</span>
+                <span class="font-label-md text-label-md text-on-primary-container">En Lima y balnearios</span>
+              </div>
+              <div class="flex flex-col gap-1">
+                <span class="font-display-hero text-headline-xl lg:text-display-hero font-extrabold text-secondary-container leading-none">12+</span>
+                <span class="font-label-lg text-label-lg font-bold">Años de Trayectoria</span>
+                <span class="font-label-md text-label-md text-on-primary-container">Ingeniería vidriera</span>
+              </div>
+              <div class="flex flex-col gap-1">
+                <span class="font-display-hero text-headline-xl lg:text-display-hero font-extrabold text-secondary-container leading-none">25+</span>
+                <span class="font-label-lg text-label-lg font-bold">Distritos Atendidos</span>
+                <span class="font-label-md text-label-md text-on-primary-container">Cobertura integral</span>
+              </div>
+              <div class="flex flex-col gap-1">
+                <span class="font-display-hero text-headline-xl lg:text-display-hero font-extrabold text-secondary-container leading-none">100%</span>
+                <span class="font-label-lg text-label-lg font-bold">Cristal Homologado</span>
+                <span class="font-label-md text-label-md text-on-primary-container">Norma Técnica Peruana</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. CÓMO TRABAJAMOS -->
+      <section class="w-full py-space-xl bg-surface">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+          <div class="flex flex-col gap-2 max-w-xl">
+            <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Metodología Impecable</span>
+            <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+              Cómo Desarrollamos Tu Proyecto
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Un flujo de trabajo transparente y ágil pensado para que disfrutes de tu nuevo espacio sin complicaciones técnicas.
+            </p>
+          </div>
+          
+          <!-- 4 Steps Interactive Layout -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter relative">
+            <!-- Step 1 -->
+            <div class="relative flex flex-col gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center justify-between">
+                <span class="font-display-hero text-headline-lg font-extrabold text-secondary-container">01</span>
+                <span class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[20px]">chat_bubble_outline</span>
+                </span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Cuéntanos tu proyecto</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Envíanos fotos, medidas preliminares o planos arquitectónicos vía WhatsApp o a través de nuestra web para una estimación inicial rápida.
+              </p>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="relative flex flex-col gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center justify-between">
+                <span class="font-display-hero text-headline-lg font-extrabold text-secondary-container">02</span>
+                <span class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[20px]">square_foot</span>
+                </span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Visita técnica y medición</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Un especialista de Excelsior visita tu domicilio u obra para evaluar vanos, nivelación de pisos y asesorarte en la configuración exacta.
+              </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="relative flex flex-col gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center justify-between">
+                <span class="font-display-hero text-headline-lg font-extrabold text-secondary-container">03</span>
+                <span class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[20px]">architecture</span>
+                </span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Cotización y manufactura</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Te entregamos la propuesta técnico-económica cerrada. Tras la confirmación, iniciamos el templado del cristal y habilitación de herrajes.
+              </p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="relative flex flex-col gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center justify-between">
+                <span class="font-display-hero text-headline-lg font-extrabold text-secondary-container">04</span>
+                <span class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+                  <span class="material-symbols-outlined text-[20px]">task_alt</span>
+                </span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Instalación y entrega</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Montaje limpio y riguroso por nuestros técnicos de planta, pruebas de deslizamiento suave, entrega de certificado y garantía.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. PROYECTOS REALIZADOS (Galería y Antes/Después) -->
+      <section class="w-full py-space-xl bg-surface-container-low" id="proyectos">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+            <div class="flex flex-col gap-1 max-w-xl">
+              <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Portafolio Arquitectónico</span>
+              <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+                Proyectos Entregados con Excelencia
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Espacios transformados en residencias exclusivas y sedes corporativas de Lima.
+              </p>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="flex flex-wrap gap-2" id="project-filters">
+              <button class="px-4 py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold shadow-sm" data-filter="all" type="button">Todos</button>
+              <button class="px-4 py-2 rounded-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-semibold transition-colors" data-filter="vivienda" type="button">Vivienda &amp; Terrazas</button>
+              <button class="px-4 py-2 rounded-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-semibold transition-colors" data-filter="oficinas" type="button">Oficinas Corporativas</button>
+              <button class="px-4 py-2 rounded-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-semibold transition-colors" data-filter="comercial" type="button">Comercial &amp; Retail</button>
+            </div>
+          </div>
+
+          <!-- Highlighted Projects Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-category="vivienda">
+              <div class="relative h-72 overflow-hidden">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern penthouse apartment terrace in Miraflores Lima with luxury frameless bifold glass doors open completely overlooking the city and ocean, warm dusk lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcmBldmPXmEOQ2Bk3C7wY8T2gWnZDkfqYBynFRiEgA1hacGZv6p183sW6nP2Qp3gmq63Pg5KfiXEcm8xyKt7qWQ2d8kBFYMhs_9mmwiyrp2tzKnWakYwAViXwUwWlKDLwJXOKhavGmtPX7y1UGpzgwa0DbZznxOpUTg4A8RFa9BP08V9t4sOmj-wux0N_UHqO2FJ7_9S91eqEVKR77BDcUAHXV6aNXOYFE5AWQoefF"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-white">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary-fixed tracking-wider">Miraflores, Lima</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold leading-tight">Dúplex en Miraflores</h3>
+                  <p class="font-body-md text-body-md text-surface-container-high text-xs line-clamp-1">Mamparas plegables acústicas en terraza social</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-category="oficinas">
+              <div class="relative h-72 overflow-hidden">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Corporate office conference room in San Isidro financial center featuring glass partitions and sound-dampening acoustic tempered glass swing doors with black trim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS-tkW9YpegDYnFLhdlrdPnQuDBQU4Goq1i9V0Hj_DQWU5P-fjRfy9x-jbwp8NGdSNJAqktwdxnOtVR4zbdYYMj2Rr1VlbRijN-AFv55-NZH6mt6wxV5XPYlK85wnNLa4eGti-bkTyYRPQbJQKGxoFnUV8neCS2fuJnuCHWH5nwPp4G81P2Ef2En9339hyzo8M9lmgFhEBTHOFZx3_W-_vMmQEkrsI1Dmc0O0VVtnW"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-white">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary-fixed tracking-wider">San Isidro Financiero</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold leading-tight">Sede Corporativa San Isidro</h3>
+                  <p class="font-body-md text-body-md text-surface-container-high text-xs line-clamp-1">Divisiones acústicas y puertas batientes con freno de piso</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all" data-category="vivienda">
+              <div class="relative h-72 overflow-hidden">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Contemporary private villa in La Molina Lima with custom stacking glass partition system fully integrating the living room with the pool garden and barbecue deck" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1ZszHdR0VHPCaIt2jSv-m4YkEB5PJL0lte8W3rTS3ijfpftfWNdYLFZLgo_7Nj8qAEMRE73UKJ_d0DOcCfNj9aw9s3UCy6x0LQMtYYG8NIpLXuntRLsRLNSmQozCw5-qlvmzmC5TPMD5zdvh-kV9cg9xWCO_gSg0VF4yFVAycRCYg-U4HOR6TckooqDRQxpUSzHKQHY6Eb59WGlmLqdZ4tORhiXK4k35jiq-V3NeE"/>
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-white">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary-fixed tracking-wider">La Molina, Lima</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold leading-tight">Residencia Los Cóndores</h3>
+                  <p class="font-body-md text-body-md text-surface-container-high text-xs line-clamp-1">Puertas apilables de 7 hojas integradas a zona de piscina</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Before / After Interactive Transformation Showcase -->
+          <div class="p-space-lg lg:p-space-xl rounded-xl bg-surface-container-lowest shadow-md flex flex-col gap-space-md">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Transformación Arquitectónica</span>
+                <h3 class="font-headline-md text-headline-md font-bold text-on-surface">Antes vs. Después: Terraza Residencial en Surco</h3>
+              </div>
+              <span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1">
+                <span class="material-symbols-outlined text-[16px]">touch_app</span> Desliza o haz clic para comparar
+              </span>
+            </div>
+            
+            <!-- Interactive Before/After Split -->
+            <div class="relative w-full h-[360px] lg:h-[440px] rounded-lg overflow-hidden select-none cursor-ew-resize" id="before-after-container">
+              <!-- After (Full / Base layer) -->
+              <div class="absolute inset-0 bg-cover bg-center" data-alt="After view: Modern renovated open-concept luxury Lima apartment terrace filled with daylight, clear tempered glass stacking doors pushed open, stylish wooden decking" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBeuTWWR3xFOEeDUFwl0w1dZj4B0ubc3hkJ_jp7Om8xrNBFsyJ3w2D3HREWVhNJvMVkJRIk8uj6BHdzYuXA27T-ae4Hxx8d8IYt_pEvYStEgQvPUUXdt17VC1psdKZzm38FvRc51NA5phEk09oCvmQAmHsu5429c916EfJn13OZ2vJtBkyuXZMG1Nn6JZGJjkotNTlJHjURMyrYu8JnkAmDmMoJqbY0-mL1QFkx9A2o')">
+                <span class="absolute top-4 right-4 px-3 py-1 rounded bg-secondary text-white font-label-caps text-label-caps uppercase font-bold shadow-sm">
+                  DESPUÉS: Mampara Panorámica Excelsior
+                </span>
+              </div>
+              
+              <!-- Before (Clipped layer) -->
+              <div class="absolute inset-0 h-full bg-cover bg-center overflow-hidden border-r-2 border-white shadow-2xl" data-alt="Before view: Outdated dark closed patio with bulky iron bars and opaque dirty windows blocking outdoor view and daylight" id="before-layer" style="width: 50%; background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXhqzThR-vJtvIMWgdBJdJaXxMsaOuBN3HsDe2WLfvNx_8Fc_eHKSEZhsK-XqlpRDNKDldcfGwb3CJl0YXx3mFMBwupnL9OGIv-fOg7x0oqb4nWTZJVHEICMIhCPfauAnb6cuDMLgKa-Dt4HQEqefbOc8W7UMG6jC0hXl0qXMz7flP5AeczqOJnplXWK0ciF8EPbCSmBb_dHOtaFln5nwPe0IPsGliv9zhUE_ux_mb')">
+                <span class="absolute top-4 left-4 px-3 py-1 rounded bg-on-surface text-surface font-label-caps text-label-caps uppercase font-bold shadow-sm">
+                  ANTES: Estructura Antigua &amp; Oscura
+                </span>
+              </div>
+              
+              <!-- Divider Handle -->
+              <div class="absolute top-0 bottom-0 w-1 bg-white shadow-2xl flex items-center justify-center cursor-ew-resize -ml-0.5" id="before-after-handle" style="left: 50%">
+                <div class="w-10 h-10 rounded-full bg-surface-container-lowest shadow-lg text-primary flex items-center justify-center border-2 border-secondary">
+                  <span class="material-symbols-outlined text-[18px]">drag_indicator</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex items-center justify-center pt-2">
+              <a class="inline-flex items-center gap-space-xs text-secondary font-label-lg text-label-lg font-bold hover:underline" href="#contacto">
+                <span>Ver más de 50 casos de éxito documentados</span>
+                <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. TESTIMONIOS REALES -->
+      <section class="w-full py-space-xl bg-surface">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+          <div class="text-center max-w-xl mx-auto flex flex-col gap-2">
+            <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Confianza Comprobada</span>
+            <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+              La Experiencia de Quienes Confían en Nosotros
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Desde reconocidos estudios de arquitectura hasta propietarios que transformaron su hogar.
+            </p>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <!-- Review 1 -->
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+              <div class="flex flex-col gap-space-sm">
+                <div class="flex items-center text-[#f59e0b]">
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant italic">
+                  "Trabajar con Excelsior en nuestras obras residenciales en Miraflores ha sido un acierto total. Tienen rigor en los plomos y los herrajes europeos operan sin holguras. Cumplieron exactamente con la fecha prometida."
+                </p>
+              </div>
+              <div class="flex items-center gap-space-sm pt-2">
+                <div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-secondary">
+                  MC
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg font-bold text-on-surface">Arq. Mariana Cornejo</span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant">Estudio Cornejo &amp; Asoc. • Miraflores</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+              <div class="flex flex-col gap-space-sm">
+                <div class="flex items-center text-[#f59e0b]">
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant italic">
+                  "Instalamos una mampara apilable de 6 hojas para unir la sala con el jardín. El cambio es impresionante; no hay riel que tropiece y el deslizamiento con una sola mano es sumamente suave. Excelente servicio postventa."
+                </p>
+              </div>
+              <div class="flex items-center gap-space-sm pt-2">
+                <div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-secondary">
+                  RM
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg font-bold text-on-surface">Rodrigo Morales</span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant">Propietario Casa en Chacarilla • Surco</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+              <div class="flex flex-col gap-space-sm">
+                <div class="flex items-center text-[#f59e0b]">
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant italic">
+                  "Requeríamos divisiones acústicas de vidrio y pizarras templadas magnéticas para nuestras salas de directorio en San Isidro. El personal técnico ingresó con todos sus seguros al día e instaló de noche sin generar polvo."
+                </p>
+              </div>
+              <div class="flex items-center gap-space-sm pt-2">
+                <div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-secondary">
+                  CB
+                </div>
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg font-bold text-on-surface">Ing. Carlos Benavides</span>
+                  <span class="font-label-caps text-label-caps text-on-surface-variant">Operaciones Corporativas • San Isidro</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. SECCIÓN ESPECIAL: PARA ARQUITECTOS Y DISEÑADORES -->
+      <section class="w-full py-space-xl bg-primary text-on-primary" id="arquitectos-y-disenadores">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+            <div class="lg:col-span-7 flex flex-col gap-space-md">
+              <div class="inline-flex items-center gap-space-xs px-3 py-1 rounded bg-surface-container-high/20 text-secondary-fixed w-fit">
+                <span class="material-symbols-outlined text-[18px]">handshake</span>
+                <span class="font-label-caps text-label-caps uppercase tracking-wider font-bold">Programa Especial de Aliados</span>
+              </div>
+              <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold tracking-tight text-white leading-tight">
+                Alianza Estratégica para Arquitectos, Constructoras y Diseñadores
+              </h2>
+              <p class="font-body-xl text-body-md lg:text-body-xl text-on-primary-container leading-relaxed">
+                Potenciamos tus especificaciones de obra con soporte de ingeniería en vidrio, cálculo de cargas de viento, tolerancias de vanos y ejecución llave en mano.
+              </p>
+              
+              <!-- 4 Beneficios clave -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-2">
+                <div class="flex items-start gap-space-sm">
+                  <span class="material-symbols-outlined text-secondary-fixed shrink-0 text-[22px] mt-0.5">description</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-lg text-label-lg font-bold text-white">Memoria y Especificaciones</span>
+                    <span class="font-body-md text-body-md text-on-primary-container text-xs">Soporte directo para tu memoria descriptiva técnica.</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-space-sm">
+                  <span class="material-symbols-outlined text-secondary-fixed shrink-0 text-[22px] mt-0.5">folder_zip</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-lg text-label-lg font-bold text-white">Fichas Técnicas CAD &amp; BIM</span>
+                    <span class="font-body-md text-body-md text-on-primary-container text-xs">Planos de sección y detalles de herrajes descargables.</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-space-sm">
+                  <span class="material-symbols-outlined text-secondary-fixed shrink-0 text-[22px] mt-0.5">group_add</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-lg text-label-lg font-bold text-white">Visitas Conjuntas en Obra</span>
+                    <span class="font-body-md text-body-md text-on-primary-container text-xs">Acompañamiento técnico frente a tu cliente final.</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-space-sm">
+                  <span class="material-symbols-outlined text-secondary-fixed shrink-0 text-[22px] mt-0.5">percent</span>
+                  <div class="flex flex-col">
+                    <span class="font-label-lg text-label-lg font-bold text-white">Tarifas Preferenciales</span>
+                    <span class="font-body-md text-body-md text-on-primary-container text-xs">Condiciones comerciales para proyectos recurrentes.</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="pt-4">
+                <a class="inline-flex items-center gap-space-sm px-6 py-3.5 rounded-lg bg-secondary text-white font-label-lg text-label-lg font-bold hover:bg-secondary-container hover:text-on-secondary-container transition-all shadow-md" href="https://wa.me/51943706942?text=Hola%20Excelsior%2C%20soy%20arquitecto%2Fdise%C3%B1ador%20y%20deseo%20registrarme%20para%20convenios" target="_blank">
+                  <span>Trabajemos juntos / Registrarse como profesional</span>
+                  <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5">
+              <div class="p-space-lg rounded-xl bg-surface-container-highest/10 backdrop-blur-md shadow-2xl flex flex-col gap-space-md">
+                <span class="font-label-caps text-label-caps uppercase text-secondary-fixed font-bold">Documentación Técnica Instantánea</span>
+                <div class="flex flex-col gap-2">
+                  <div class="p-3 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 flex items-center justify-between cursor-pointer transition-colors" onclick="alert('Descargando catálogo técnico...')">
+                    <div class="flex items-center gap-space-sm">
+                      <span class="material-symbols-outlined text-secondary-fixed">download</span>
+                      <span class="font-label-md text-label-md text-white">Catálogo de Sistemas Plegables &amp; Apilables (PDF)</span>
+                    </div>
+                    <span class="font-label-caps text-label-caps text-on-primary-container">4.8 MB</span>
+                  </div>
+                  <div class="p-3 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 flex items-center justify-between cursor-pointer transition-colors" onclick="alert('Descargando detalles constructivos CAD/DWG...')">
+                    <div class="flex items-center gap-space-sm">
+                      <span class="material-symbols-outlined text-secondary-fixed">download</span>
+                      <span class="font-label-md text-label-md text-white">Detalles Constructivos CAD/DWG para Vanos</span>
+                    </div>
+                    <span class="font-label-caps text-label-caps text-on-primary-container">12.1 MB</span>
+                  </div>
+                  <div class="p-3 rounded-lg bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 flex items-center justify-between cursor-pointer transition-colors" onclick="alert('Descargando ficha de herrajes Olimpia & Trivel...')">
+                    <div class="flex items-center gap-space-sm">
+                      <span class="material-symbols-outlined text-secondary-fixed">download</span>
+                      <span class="font-label-md text-label-md text-white">Ficha de Herrajes Olimpia &amp; Trivel (PDF)</span>
+                    </div>
+                    <span class="font-label-caps text-label-caps text-on-primary-container">3.2 MB</span>
+                  </div>
+                </div>
+                <span class="font-body-md text-body-md text-on-primary-container text-xs text-center">
+                  ¿Requieres un modelo 3D o BIM personalizado? Nuestro equipo te lo envía en 24 horas.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9. FORMULARIO DE COTIZACIÓN INMEDIATA -->
+      <section class="w-full py-space-xl bg-surface-container-low" id="contacto">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+            <!-- Formulario -->
+            <div class="lg:col-span-7 bg-surface-container-lowest p-space-lg lg:p-space-xl rounded-xl shadow-sm flex flex-col gap-space-md">
+              <div class="flex flex-col gap-1">
+                <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Presupuesto Formal</span>
+                <h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">Solicita tu cotización técnica sin costo</h2>
+                <p class="font-body-md text-body-md text-on-surface-variant">Completa los datos del vano y un ingeniero de cotizaciones te responderá a la brevedad.</p>
+              </div>
+              <form class="flex flex-col gap-space-md" id="quote-form" onsubmit="event.preventDefault(); alert('¡Gracias por enviar tu requerimiento! Un especialista de Excelsior se contactará a la brevedad con la cotización técnica.');">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+                  <div class="flex flex-col gap-1">
+                    <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Nombre Completo *</label>
+                    <input class="w-full h-12 px-3 rounded-lg bg-surface border border-outline-variant/30 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" placeholder="Ej. Carlos Mendoza" required="" type="text"/>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Teléfono / WhatsApp *</label>
+                    <input class="w-full h-12 px-3 rounded-lg bg-surface border border-outline-variant/30 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" placeholder="Ej. 943 706 942" required="" type="tel"/>
+                  </div>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+                  <div class="flex flex-col gap-1">
+                    <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Distrito en Lima *</label>
+                    <input class="w-full h-12 px-3 rounded-lg bg-surface border border-outline-variant/30 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" placeholder="Ej. Miraflores, San Isidro, Surco..." required="" type="text"/>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Tipo de Solución *</label>
+                    <select class="w-full h-12 px-3 rounded-lg bg-surface border border-outline-variant/30 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md">
+                      <option value="apilables">Puertas apilables de cristal</option>
+                      <option value="plegables">Puertas plegables acústicas</option>
+                      <option value="corredizas">Puertas corredizas y mamparas</option>
+                      <option value="ducha">Puertas y divisiones de ducha</option>
+                      <option value="batientes">Puertas batientes templadas</option>
+                      <option value="pizarras">Pizarras de cristal magnético</option>
+                      <option value="barandas">Barandas y pasamanos</option>
+                      <option value="otro">Otro proyecto a medida</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+                  <div class="flex flex-col gap-1">
+                    <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Medidas Aproximadas (Opcional)</label>
+                    <input class="w-full h-12 px-3 rounded-lg bg-surface border border-outline-variant/30 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" placeholder="Ej. Ancho: 3.20m x Alto: 2.40m" type="text"/>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Adjuntar foto o plano</label>
+                    <label class="w-full h-12 px-3 rounded-lg bg-surface border border-outline-variant/30 flex items-center justify-between text-on-surface-variant cursor-pointer hover:bg-surface-container transition-colors">
+                      <input type="file" class="hidden" onchange="this.nextElementSibling.innerText = this.files[0] ? this.files[0].name : 'Seleccionar archivo (PDF, JPG, PNG)';"/>
+                      <span class="font-body-md text-body-md truncate">Seleccionar archivo (PDF, JPG, PNG)</span>
+                      <span class="material-symbols-outlined text-[20px] text-secondary">cloud_upload</span>
+                    </label>
+                  </div>
+                </div>
+                
+                <div class="flex flex-col gap-1">
+                  <label class="font-label-caps text-label-caps uppercase text-on-surface-variant font-bold">Detalles Adicionales del Proyecto</label>
+                  <textarea class="w-full p-3 rounded-lg bg-surface border border-outline-variant/30 focus:outline-none focus:ring-2 focus:ring-secondary text-on-surface font-body-md text-body-md" placeholder="Coméntanos detalles del espacio, requerimientos de color de herrajes o fecha estimada de instalación..." rows="3"></textarea>
+                </div>
+                
+                <button class="w-full h-12 rounded-lg bg-primary hover:bg-primary/90 text-on-primary font-label-lg text-label-lg font-bold shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-space-xs" type="submit">
+                  <span>Solicitar cotización técnica</span>
+                  <span class="material-symbols-outlined text-[18px]">send</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- Panel Lateral WhatsApp Inmediato -->
+            <div class="lg:col-span-5 flex flex-col justify-between p-space-lg lg:p-space-xl rounded-xl bg-surface-container-high/70 backdrop-blur-md shadow-sm gap-space-lg">
+              <div class="flex flex-col gap-space-md">
+                <div class="w-12 h-12 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-md">
+                  <span class="material-symbols-outlined text-[28px]">chat</span>
+                </div>
+                <div class="flex flex-col gap-1">
+                  <span class="font-label-caps text-label-caps uppercase text-[#25D366] font-extrabold tracking-wider">¿Prefieres atención inmediata?</span>
+                  <h3 class="font-headline-md text-headline-md font-bold text-on-surface leading-tight">
+                    Escríbenos directamente por WhatsApp
+                  </h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    Envíanos fotos o videos del vano al <strong class="text-on-surface">943 706 942</strong> y un asesor técnico responderá tus consultas en minutos con un rango de costo preliminar.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-2 p-3 rounded-lg bg-surface-container-lowest">
+                  <div class="flex items-center gap-space-xs text-on-surface">
+                    <span class="material-symbols-outlined text-secondary text-[20px]">schedule</span>
+                    <span class="font-label-md text-label-md font-semibold">Respuesta promedio: Menos de 15 minutos</span>
+                  </div>
+                  <div class="flex items-center gap-space-xs text-on-surface">
+                    <span class="material-symbols-outlined text-secondary text-[20px]">calendar_month</span>
+                    <span class="font-label-md text-label-md font-semibold">Horario comercial continuo</span>
+                  </div>
+                </div>
+              </div>
+              
+              <a class="w-full py-4 rounded-lg bg-[#25D366] hover:bg-[#20ba59] text-white text-center font-label-lg text-label-lg font-bold shadow-lg flex items-center justify-center gap-space-sm transition-all" href="https://wa.me/51943706942?text=Hola%20Excelsior%2C%20tengo%20fotos%20de%20mi%20espacio%20y%20deseo%20una%20cotizaci%C3%B3n%20r%C3%A1pida" rel="noopener noreferrer" target="_blank">
+                <span class="material-symbols-outlined text-[24px]">chat</span>
+                <span>Chatear ahora al 943 706 942</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10. BANNER TIENDA ONLINE -->
+      <section class="w-full py-space-lg bg-surface-container" id="tienda-online">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="p-space-lg lg:p-space-xl rounded-xl bg-surface-container-lowest shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-lg">
+            <div class="flex items-center gap-space-md">
+              <div class="w-14 h-14 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined text-[32px]">shopping_bag</span>
+              </div>
+              <div class="flex flex-col gap-1">
+                <span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Distribución Autorizada</span>
+                <h3 class="font-headline-md text-headline-sm lg:text-headline-md font-bold text-on-surface">
+                  Compra herrajes y accesorios Olimpia Hardware – ASSA ABLOY
+                </h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">
+                  Frenos de piso hidráulicos, cerraduras de alta seguridad, tiradores de acero inoxidable y repuestos con entrega inmediata.
+                </p>
+              </div>
+            </div>
+            <a class="shrink-0 px-6 py-3 rounded-lg bg-primary hover:bg-primary/90 text-on-primary font-label-lg text-label-lg font-bold transition-colors inline-flex items-center gap-space-xs" href="https://wa.me/51943706942?text=Deseo%20catalogo%20de%20herrajes%20Olimpia" target="_blank">
+              <span>Ir a la tienda online</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11. COBERTURA DE INSTALACIÓN EN LIMA -->
+      <section class="w-full py-space-xl bg-surface">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+            <div class="lg:col-span-6 flex flex-col gap-space-md">
+              <div class="flex flex-col gap-1">
+                <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Presencia Metropolitana</span>
+                <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+                  Instalación y Despacho en Toda Lima Metropolitana y Playas
+                </h2>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                  Equipos móviles equipados para transporte seguro de cristal con caballetes acolchados y cuadrillas técnicas permanentes en:
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2 pt-1">
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Miraflores</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">San Isidro</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Santiago de Surco</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">La Molina</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">San Borja</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Barranco</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Magdalena del Mar</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">San Miguel</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Jesús María</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Chorrillos</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">Los Olivos</span>
+                <span class="px-3 py-1.5 rounded-lg bg-surface-container font-label-md text-label-md text-on-surface font-semibold">San Juan de Lurigancho</span>
+              </div>
+              <div class="p-space-md rounded-xl bg-surface-container-low flex items-start gap-space-sm mt-2">
+                <span class="material-symbols-outlined text-secondary text-[24px] shrink-0">beach_access</span>
+                <div class="flex flex-col">
+                  <span class="font-label-lg text-label-lg font-bold text-on-surface">Proyectos Especiales en Playas y Balnearios</span>
+                  <p class="font-body-md text-body-md text-on-surface-variant text-xs">
+                    Atención especializada en Boulevard de Asia, Punta Hermosa, Santa María del Mar, San Bartolo, Ancón y casas de playa.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-6">
+              <div class="w-full h-80 lg:h-96 rounded-xl bg-cover bg-center shadow-md relative overflow-hidden" data-location="Miraflores, Lima, Peru" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAP3NkAJH6_uBZtWLvTB8VZJ8y9j9jpSeg9eMDsiTJL0avpcSGeOYiCoLwpkhVJknMNcw5eB1EEo5HIvTPirXFEcBNRG3VxNRi6vsfbedhlL4Iol-jWyEXGNKrhoOQu7JIwzziFpw5cCq5bNUSuzDOiGvNoOEPdjWh5qROirqWut_Hbl2mlMV6vLXQYdjWFnRVvwxKCQWH0dKNtjGp73ZxxYogaFd_FqjeSANTxybG1')">
+                <div class="absolute inset-0 bg-primary/20 backdrop-blur-[1px]"></div>
+                <div class="absolute bottom-4 left-4 right-4 p-4 rounded-lg bg-surface-container-lowest/90 backdrop-blur-md shadow-lg flex items-center justify-between">
+                  <div class="flex items-center gap-space-sm">
+                    <span class="material-symbols-outlined text-secondary text-[24px]">pin_drop</span>
+                    <span class="font-label-md text-label-md text-on-surface font-bold">Cobertura Total Certificada en Lima y Balnearios</span>
+                  </div>
+                  <span class="font-label-caps text-label-caps text-secondary font-extrabold uppercase">100% GARANTÍA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12. PREGUNTAS FRECUENTES (FAQ Acordeón) -->
+      <section class="w-full py-space-xl bg-surface-container-low">
+        <div class="max-w-[960px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-lg">
+          <div class="text-center flex flex-col gap-1">
+            <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Dudas Habituales</span>
+            <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+              Preguntas Frecuentes
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Todo lo que necesitas saber antes de contratar tu mampara o puerta de cristal templado.
+            </p>
+          </div>
+
+          <!-- Accordion Items -->
+          <div class="flex flex-col gap-3" id="faq-accordion">
+            <!-- Q1 -->
+            <div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm transition-all">
+              <button class="w-full flex items-center justify-between text-left font-headline-sm text-headline-sm font-bold text-on-surface gap-4" onclick="toggleFaq(this)">
+                <span>1. ¿Cuánto cuesta una mampara de vidrio templado a medida?</span>
+                <span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-300">expand_more</span>
+              </button>
+              <div class="hidden pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                El precio depende del espesor del cristal (8mm, 10mm o 12mm), el metraje total del vano y el sistema de herrajes seleccionado (corredizo tradicional, plegable o apilable panorámico Claroflex). Envíanos tus medidas estimadas por WhatsApp al 943 706 942 para brindarte una cotización preliminar en menos de 15 minutos.
+              </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm transition-all">
+              <button class="w-full flex items-center justify-between text-left font-headline-sm text-headline-sm font-bold text-on-surface gap-4" onclick="toggleFaq(this)">
+                <span>2. ¿Cuáles son los plazos de fabricación e instalación?</span>
+                <span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-300">expand_more</span>
+              </button>
+              <div class="hidden pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                Una vez ratificadas las medidas exactas en tu obra con láser, el proceso de corte, templado y verificación toma entre 7 a 12 días útiles. El montaje en obra se efectúa normalmente en una sola jornada limpia de 4 a 8 horas según la envergadura del proyecto.
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm transition-all">
+              <button class="w-full flex items-center justify-between text-left font-headline-sm text-headline-sm font-bold text-on-surface gap-4" onclick="toggleFaq(this)">
+                <span>3. ¿Cómo se toman las medidas y quién realiza la visita técnica?</span>
+                <span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-300">expand_more</span>
+              </button>
+              <div class="hidden pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                La visita técnica es realizada exclusivamente por ingenieros y técnicos sénior de nuestra propia plantilla. Evaluamos desplomes de pared, desniveles de piso y proponemos soluciones estéticas antes de enviar a fabricar el cristal.
+              </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm transition-all">
+              <button class="w-full flex items-center justify-between text-left font-headline-sm text-headline-sm font-bold text-on-surface gap-4" onclick="toggleFaq(this)">
+                <span>4. ¿Qué garantía tienen los sistemas y los cristales?</span>
+                <span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-300">expand_more</span>
+              </button>
+              <div class="hidden pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                Todos nuestros proyectos cuentan con garantía escrita oficial de hasta 5 años en herrajes estructurales y garantía certificada de fábrica sobre el templado del cristal bajo las Normas Técnicas Peruanas de Vidrio de Seguridad.
+              </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm transition-all">
+              <button class="w-full flex items-center justify-between text-left font-headline-sm text-headline-sm font-bold text-on-surface gap-4" onclick="toggleFaq(this)">
+                <span>5. ¿Qué diferencia hay entre los sistemas plegables, apilables y corredizos?</span>
+                <span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-300">expand_more</span>
+              </button>
+              <div class="hidden pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                Las puertas corredizas conservan paños fijos solapados; las plegables (bi-fold) recogen las hojas en acordeón; y las apilables panorámicas permiten abrir el 100% del vano sin ningún perfil vertical ni riel en el suelo, guardando los paños a 90 grados contra la pared.
+              </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm transition-all">
+              <button class="w-full flex items-center justify-between text-left font-headline-sm text-headline-sm font-bold text-on-surface gap-4" onclick="toggleFaq(this)">
+                <span>6. ¿Realizan instalaciones de vidrio templado en provincias fuera de Lima?</span>
+                <span class="material-symbols-outlined text-secondary text-[24px] transition-transform duration-300">expand_more</span>
+              </button>
+              <div class="hidden pt-3 text-on-surface-variant font-body-md text-body-md leading-relaxed">
+                Sí. Atendemos proyectos corporativos y residenciales de gran escala en ciudades como Arequipa, Trujillo, Cusco, Piura e Ica, además de balnearios costeros del sur y norte chico. Realizamos despachos embalados en jaba de madera y traslados de cuadrillas técnicas.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13. VISITA NUESTRO SHOWROOM EN MIRAFLORES -->
+      <section class="w-full py-space-xl bg-surface" id="showroom">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+            <!-- Showroom Map / Visual representation -->
+            <div class="lg:col-span-6 flex flex-col justify-between rounded-xl overflow-hidden bg-surface-container min-h-[360px] shadow-sm relative">
+              <div class="absolute inset-0 bg-cover bg-center" data-location="Calle Libertad 176, Miraflores, Lima, Peru" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC1J2ytEgVoNqA6XFIymc55ue492HtqZAdNmV8lHE4Ylm4nXoTTWKN_k52lcPxFv5bdo9qHsr_HYyVWMTTa3-e13ExbWucGB-E_09oXCpvAXRJIHrLXEmQFbRweJIy3ZkbV9fwW3uxWTJqRYTkt65FZ7z85JjeLW3pqXMomBf1W6Jt1j_6vFJKxLYY4sva8yiMNZ4IZ-eSCMpAieEdELqFVQFwnkVC0S9VTnuT1XCLc')"></div>
+              <div class="relative z-10 p-space-md bg-gradient-to-b from-primary/80 via-transparent to-transparent text-white">
+                <span class="font-label-caps text-label-caps uppercase tracking-wider font-bold">Ubicación Céntrica • Miraflores</span>
+                <h3 class="font-headline-sm text-headline-sm font-bold">Edificio SOHO, Miraflores</h3>
+              </div>
+              <div class="relative z-10 p-space-md bg-gradient-to-t from-primary/90 to-transparent flex items-center justify-between text-white">
+                <div class="flex items-center gap-space-xs">
+                  <span class="material-symbols-outlined text-secondary-fixed text-[20px]">directions_car</span>
+                  <span class="font-label-md text-label-md">Estacionamiento de visitas disponible</span>
+                </div>
+                <a class="px-3 py-1.5 rounded bg-surface-container-lowest text-primary font-label-md text-label-md font-bold hover:bg-surface-container transition-colors inline-flex items-center gap-1" href="https://maps.google.com" target="_blank">
+                  <span>Abrir Google Maps</span>
+                  <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Showroom Details Column -->
+            <div class="lg:col-span-6 p-space-lg lg:p-space-xl rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+              <div class="flex flex-col gap-space-sm">
+                <div class="flex items-center justify-between">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Espacio de Experiencia</span>
+                  <span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps font-bold">
+                    Atención exclusiva previa cita
+                  </span>
+                </div>
+                <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+                  Visita Nuestro Showroom en Miraflores
+                </h2>
+                <p class="font-body-md text-body-md text-on-surface-variant">
+                  Toca la suavidad de rodaje de nuestras mamparas apilables, verifica el acabado de los herrajes y recibe asesoría con planos en mano.
+                </p>
+                <div class="flex flex-col gap-3 pt-2">
+                  <div class="flex items-start gap-space-sm">
+                    <span class="material-symbols-outlined text-secondary shrink-0 text-[22px] mt-0.5">location_on</span>
+                    <div>
+                      <span class="font-label-lg text-label-lg font-bold text-on-surface">Dirección:</span>
+                      <p class="font-body-md text-body-md text-on-surface-variant">Calle Libertad 176, Edificio SOHO, Oficina 310, Miraflores, Lima - Perú</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-space-sm">
+                    <span class="material-symbols-outlined text-secondary shrink-0 text-[22px] mt-0.5">schedule</span>
+                    <div>
+                      <span class="font-label-lg text-label-lg font-bold text-on-surface">Horario de Atención:</span>
+                      <p class="font-body-md text-body-md text-on-surface-variant">Lunes a viernes de 10:00 a.m. a 1:00 p.m. y de 2:00 p.m. a 5:00 p.m.</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-space-sm">
+                    <span class="material-symbols-outlined text-secondary shrink-0 text-[22px] mt-0.5">call</span>
+                    <div>
+                      <span class="font-label-lg text-label-lg font-bold text-on-surface">Teléfonos Directos:</span>
+                      <p class="font-body-md text-body-md text-on-surface-variant">WhatsApp: <strong>943 706 942</strong> | Central: <strong>(01) 675 42 47</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="flex flex-col sm:flex-row items-stretch gap-space-sm pt-4">
+                <a class="flex-1 py-3.5 px-4 rounded-lg bg-primary hover:bg-primary/90 text-on-primary text-center font-label-lg text-label-lg font-bold shadow-sm transition-all inline-flex items-center justify-center gap-space-xs" href="https://wa.me/51943706942?text=Hola%2C%20deseo%20agendar%20una%20visita%20al%20showroom%20en%20Miraflores" target="_blank">
+                  <span class="material-symbols-outlined text-[20px]">event</span>
+                  <span>Agendar visita al showroom</span>
+                </a>
+                <a class="py-3.5 px-4 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg font-semibold text-center transition-colors inline-flex items-center justify-center gap-space-xs" href="https://waze.com" target="_blank">
+                  <span class="material-symbols-outlined text-[20px]">navigation</span>
+                  <span>Cómo llegar (Waze)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14. BLOG & TENDENCIAS ARQUITECTÓNICAS -->
+      <section class="w-full py-space-xl bg-surface-container-low">
+        <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-xl">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+            <div class="flex flex-col gap-1 max-w-xl">
+              <span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-widest">Guías Técnicas &amp; Tendencias</span>
+              <h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface tracking-tight">
+                Criterios de Diseño en Vidrio Templado
+              </h2>
+              <p class="font-body-md text-body-md text-on-surface-variant">
+                Aprende a elegir los sistemas más seguros y eficientes para tus proyectos arquitectónicos.
+              </p>
+            </div>
+            <a class="inline-flex items-center gap-space-xs text-secondary font-label-lg text-label-lg font-bold hover:underline" href="#contacto">
+              <span>Ver todas las publicaciones</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <!-- Article 1 -->
+            <article class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+              <div class="h-48 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern apartment terrace with open glass stacking folding doors, architectural guide illustration in daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB92DEla4bu5sLOw94WKzmI0HLt_umj49kFMKemeH1xMx_qHBFqOp1Dw8kzYHLmafzono6h7UqJ8HyhJrDbcOiAUNfkkIueAKgOUfauc1LoSSFqhRihy7n6b6v5_EHJbLFmsXbpE7lBVIn6nzYtr25fYGTR50Ya55AsRzHXeRS3Po3hJdvtMIab7FIV2Vo68MtczLQTG6AKN9BIhetyfjYtmLoi621_TjVKkoTgbDg7"/>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-sm">
+                <div class="flex flex-col gap-1.5">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Guía Comparativa</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-secondary transition-colors leading-snug">
+                    Cómo elegir entre puertas plegables y apilables para tu terraza en Lima
+                  </h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant text-xs line-clamp-3">
+                    Factores determinantes como la brisa marina, los vanos sin riel en el piso y la ergonomía de guardado de los paños según el metraje de tu balcón.
+                  </p>
+                </div>
+                <a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md font-bold pt-2" href="#contacto">
+                  <span>Leer artículo completo</span>
+                  <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+              <div class="h-48 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cross section macro photograph of polished beveled tempered architectural glass pane edge showing transparency and thickness scale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkQhI_W0K4mYE1EAhys033-BMDdPldCDL2BIi0D3lr1n2vdti3ce7zdEz_Xg1zVQdWEsU2C3MgoRMNThg3jQ7WxiOZoiKUVrUbC4gfdP1q2PKGPXuflzy08LwFzXLRM34_Tkx2-SIxgZDv3XO8zHu4swe_3eX1Zg91Dg7-fkopapViWDjDTltOKl_FhsE0DTf_pT4WJ2WvaR0aC4oXq5ZLCxk_gd3VKhOHp8y2E9vp"/>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-sm">
+                <div class="flex flex-col gap-1.5">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Ingeniería del Vidrio</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-secondary transition-colors leading-snug">
+                    Espesores de vidrio templado (8mm, 10mm, 12mm): Guía técnica para mamparas seguras
+                  </h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant text-xs line-clamp-3">
+                    Conoce cuándo es indispensable especificar 10mm o 12mm en departamentos altos frente al mar para resistir la deflexión por presión de viento.
+                  </p>
+                </div>
+                <a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md font-bold pt-2" href="#contacto">
+                  <span>Leer artículo completo</span>
+                  <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+              <div class="h-48 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury bathroom with minimalist matte black frameless tempered glass shower door, marble tile and warm indirect backlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqK6PzqiXZn8_cOv81jVy1FTd8KnxFyMhgHf1sBPwq3qKgACXxFTXIuDNzIc6aCqMof9qzMLO0kG6kRvoGwHsMXUfjdDUyhlrZKud9-VAQ-JwuimN7RXuJNZNPYt25Miw_XMKGQDmTxny51E7eYf6QStbs5otkljfg888Z3L68nUdpgGWYA5CU1HMPsvpwcki0AoOSsrT7QW5635bDtvWmLWIghTjcVd30PX7bxoa2"/>
+              </div>
+              <div class="p-space-lg flex flex-col flex-1 justify-between gap-space-sm">
+                <div class="flex flex-col gap-1.5">
+                  <span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Diseño Interior</span>
+                  <h3 class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-secondary transition-colors leading-snug">
+                    Tendencias 2025: Perfiles ocultos y herrajes negro mate en mamparas de baño
+                  </h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant text-xs line-clamp-3">
+                    La estética minimalista de cantos pulidos y bisagras empotradas que maximizan la sensación de amplitud en baños residenciales contemporáneos.
+                  </p>
+                </div>
+                <a class="inline-flex items-center gap-1 text-secondary font-label-md text-label-md font-bold pt-2" href="#contacto">
+                  <span>Leer artículo completo</span>
+                  <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FLOATING WHATSAPP CTA -->
+  <aside class="fixed bottom-6 right-6 z-50 flex items-center group">
+    <div class="hidden sm:flex mr-3 px-3 py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold shadow-[0_12px_32px_-4px_rgba(11,25,44,0.12)] border border-surface-container-high transition-opacity duration-300 opacity-95 group-hover:opacity-100">
+      <span>¡Cotiza al instante!</span>
+    </div>
+    <a aria-label="Cotizar directamente por WhatsApp" class="relative w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.4)] hover:scale-105 active:scale-95 transition-all" href="https://wa.me/51943706942?text=Hola%20Excelsior%2C%20deseo%20cotizar%20un%20proyecto" rel="noopener noreferrer" target="_blank">
+      <span class="material-symbols-outlined text-[30px]">chat</span>
+      <span class="absolute -top-1 -right-1 flex h-4 w-4">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#25D366] opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-4 w-4 bg-tertiary-fixed-dim"></span>
+      </span>
+    </a>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-12 mt-space-xl shadow-[0_-1px_12px_rgba(0,0,0,0.02)]">
+    <div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter pb-space-xl">
+        <div class="lg:col-span-4 flex flex-col gap-space-md">
+          <div class="flex items-center gap-space-md">
+            <img alt="Logo Excelsior Perú" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VS3Jntr1jB9uF0PbtDnAxqrBBPldhHJgQkzVJxwNua46jpIQmInKyLAkOJTyVWNhgU7vWSWWi_mWR1yQAHy6fW_eDSlL5ZNaa6rvJlX0fsEj-Khxz4uulI3w2VXDPwedT8tf4yyrr68Y9LWktQN3TNWpgcNqCmVNBFw0sMK629BolddTHA4MI2f54TN7BA1qGlXmADc2jzC7QzmLoiRsgaoiWhiDQYrdCRjeIS9DnP"/>
+            <div class="flex flex-col">
+              <span class="font-headline-sm text-headline-sm font-bold tracking-tight leading-none">EXCELSIOR</span>
+              <span class="font-label-caps text-label-caps uppercase text-on-surface-variant tracking-wider mt-0.5">Ingeniería en Cristal Templado</span>
+            </div>
+          </div>
+          <p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+            Líderes peruanos en soluciones arquitectónicas de alta precisión en cristal templado y laminado para residencias exclusivas, centros corporativos y proyectos de diseño.
+          </p>
+          <div class="flex items-center gap-space-sm pt-2">
+            <a aria-label="Facebook" class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-colors" href="https://facebook.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">public</span></a>
+            <a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-colors" href="https://instagram.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a>
+            <a aria-label="YouTube" class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-colors" href="https://youtube.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">smart_display</span></a>
+            <a aria-label="LinkedIn" class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-colors" href="https://linkedin.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">business_center</span></a>
+            <a aria-label="TikTok" class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface-variant hover:text-secondary hover:bg-surface-container-high transition-colors" href="https://tiktok.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">videocam</span></a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-3 flex flex-col gap-space-sm">
+          <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Gama de Productos</h3>
+          <ul class="flex flex-col gap-2 font-body-md text-body-md text-on-surface-variant">
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Puertas apilables de cristal</a></li>
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Puertas plegables acústicas</a></li>
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Puertas corredizas y mamparas</a></li>
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Puertas y divisiones de ducha</a></li>
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Puertas batientes templadas</a></li>
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Pizarras de cristal templado</a></li>
+            <li class="hover:text-on-surface transition-colors"><a href="#productos">Barandas y pasamanos estructurales</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-5 flex flex-col gap-space-sm">
+          <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Contacto &amp; Showroom</h3>
+          <div class="flex flex-col gap-3 font-body-md text-body-md text-on-surface-variant">
+            <div class="flex items-start gap-space-sm">
+              <span class="material-symbols-outlined text-secondary shrink-0 text-[20px] mt-0.5">location_on</span>
+              <span>Calle Libertad 176, Edificio SOHO Of. 310, Miraflores, Lima - Perú</span>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">chat</span>
+              <span>WhatsApp Comercial: <a class="font-semibold text-on-surface hover:text-secondary transition-colors" href="https://wa.me/51943706942">943 706 942</a></span>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">call</span>
+              <span>Central Telefónica: <a class="font-semibold text-on-surface hover:text-secondary transition-colors" href="tel:+5116754247">(01) 675 42 47</a></span>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">mail</span>
+              <span>Correo Electrónico: <a class="font-semibold text-on-surface hover:text-secondary transition-colors" href="mailto:contacto@excelsior.pe">contacto@excelsior.pe</a></span>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-secondary shrink-0 text-[20px]">local_shipping</span>
+              <span>Zona de Cobertura: Cobertura e instalación certificada en toda Lima Metropolitana y envíos a nivel nacional</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 mt-4 bg-surface-container-high/40 rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-space-md font-body-md text-body-md text-on-surface-variant">
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-6 gap-y-2">
+          <a class="hover:text-on-surface transition-colors" href="#">Términos y Condiciones</a>
+          <span class="text-outline-variant">•</span>
+          <a class="hover:text-on-surface transition-colors" href="#">Política de Privacidad</a>
+          <span class="text-outline-variant">•</span>
+          <a class="hover:text-on-surface transition-colors" href="#">Cambios y devoluciones</a>
+          <span class="text-outline-variant">•</span>
+          <a class="hover:text-on-surface transition-colors" href="#">Zona de instalación</a>
+        </div>
+        <div class="flex items-center gap-space-sm">
+          <a class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-on-surface font-label-md text-label-md font-semibold transition-colors shadow-[0_1px_4px_rgba(0,0,0,0.03)]" href="#">
+            <span class="material-symbols-outlined text-secondary text-[18px]">menu_book</span>
+            <span>Libro de Reclamaciones</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-6 text-center md:text-left flex flex-col sm:flex-row items-center justify-between gap-2 font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">
+        <span>EXCELSIOR &amp; KONTAKTOS S.A.C. • RUC 20605134476</span>
+        <span>© 2024 Todos los derechos reservados. Arquitectura &amp; Cristal Templado</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive JavaScript Micro-interactions -->
+  <script>
+    // FAQ Accordion
+    function toggleFaq(btn) {
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector('.material-symbols-outlined');
+      const isHidden = content.classList.contains('hidden');
+      
+      // Close all others
+      document.querySelectorAll('#faq-accordion > div > div').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('#faq-accordion button .material-symbols-outlined').forEach(i => i.style.transform = 'rotate(0deg)');
+      
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileBtn && mobileMenu) {
+      mobileBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      // Close on nav click
+      mobileMenu.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+      });
+    }
+
+    // Before/After Slider Interaction
+    const container = document.getElementById('before-after-container');
+    const beforeLayer = document.getElementById('before-layer');
+    const handle = document.getElementById('before-after-handle');
+
+    if (container && beforeLayer && handle) {
+      let isDragging = false;
+
+      function updateSlider(x) {
+        const rect = container.getBoundingClientRect();
+        let pos = (x - rect.left) / rect.width;
+        if (pos < 0.05) pos = 0.05;
+        if (pos > 0.95) pos = 0.95;
+        const percentage = pos * 100;
+        beforeLayer.style.width = percentage + '%';
+        handle.style.left = percentage + '%';
+      }
+
+      container.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        updateSlider(e.clientX);
+      });
+
+      window.addEventListener('mouseup', () => {
+        isDragging = false;
+      });
+
+      window.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        updateSlider(e.clientX);
+      });
+
+      container.addEventListener('touchstart', (e) => {
+        isDragging = true;
+        updateSlider(e.touches[0].clientX);
+      }, { passive: true });
+
+      window.addEventListener('touchend', () => {
+        isDragging = false;
+      });
+
+      window.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        updateSlider(e.touches[0].clientX);
+      }, { passive: true });
+    }
+
+    // Project filters interaction
+    const filterButtons = document.querySelectorAll('#project-filters button');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.className = 'px-4 py-2 rounded-lg bg-surface-container-lowest text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-semibold transition-colors';
+        });
+        btn.className = 'px-4 py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold shadow-sm';
+        
+        const filter = btn.getAttribute('data-filter');
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Active navigation highlight on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('#desktop-nav a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        if (link.getAttribute('href') === '#' + current) {
+          link.className = 'px-3 py-2 rounded-lg transition-all bg-surface-container-high text-on-surface font-semibold';
+        } else {
+          link.className = 'px-3 py-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
